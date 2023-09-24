@@ -4,14 +4,13 @@ Welcome to my "My-Coding-Journey" GitHub repository! This is a space where I doc
 
 ## About
 
-As a passionate learner, I believe in the power of knowledge sharing. This repository serves as a personal knowledge base, where I store snippets of code, write-ups on concepts, and resources that have helped me in my learning journey.
+As a passionate learner, I believe in the power of knowledge sharing. This repository serves as a personal knowledge base, where I store snippets of code and resources that have helped me in my learning journey.
 
 ## What's Inside?
 
 In this repository, you'll find:
 
-- **Code Snippets**: These are pieces of code that I've written while learning various programming languages and technologies.
-- **Concept Write-ups**: Here, I delve into the theoretical aspects of computer science and software development. These write-ups are my attempt to understand and simplify complex concepts.
+- **Code-Snippets**: These are pieces of code that I've written while learning various programming languages and technologies.
 - **Resources**: This section includes links to tutorials, articles, videos, and other resources that have been instrumental in my learning process.
 
 ## Contributing
