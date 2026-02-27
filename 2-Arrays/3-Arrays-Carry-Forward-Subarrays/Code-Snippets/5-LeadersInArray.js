@@ -17,6 +17,32 @@ NOTE: The rightmost element is always a leader.
                 Element 5 is strictly greater than all the elements on the right side to it.
                 So we will return these three elements i.e [17, 2, 5], we can also return [2, 5, 17] or [5, 2, 17] or any other ordering.
 ================= */
+
+/* ================ Brute Force
+    export const leadersInArray = (A) => {
+        const ans = [];
+        const len = A.length;
+        for(i=0; i<len; i++){
+            let j = i+1;
+            for(; j<len; j++){
+                if(A[j] > A[i]){
+                    break;
+                }
+            }
+            if(j === len){
+                ans.push(A[i]);
+            }
+        }
+        return ans;
+    }
+*/
+/* ===============
+    Solution Observations:
+    TC : O(N^2) 
+    SC : O(N)
+*/
+
+
 export const leadersInArray = (A) => {
     const n = A.length;
     let maxTillNow = A[n-1];

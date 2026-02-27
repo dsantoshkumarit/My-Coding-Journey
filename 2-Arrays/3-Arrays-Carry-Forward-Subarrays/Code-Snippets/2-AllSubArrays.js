@@ -32,6 +32,8 @@ export const getAllSubArrays = (A) => {
 
 /* ================ 
 Solution Observations:
-    TC : O(N) 
+    Worst case TC to print one sub-array = O(N)
+    Worst case TC to print all(N(N+1)/2) sub-arrays = O(N^2) * O(N) = O(N^3)
+    TC : O(N^3) 
     SC : O(N)
 ================= */
