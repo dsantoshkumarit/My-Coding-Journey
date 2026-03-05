@@ -66,3 +66,86 @@ const calculateMinTotalCost = (A,N) => {
     }
     return totalSum;
 };
+/*
+    TC: O(N*logN)
+    SC: O(1)
+*/
+
+
+
+/*
+    2. Noble Integer
+    Problem Description:
+    Given an integer array A, find if an integer p exists in the array such that the number of integers greater than p in the array equals p.
+    Note: It has duplicates
+
+    Problem Constraints:
+    1 <= |A| <= 2*10^5
+    -10^8 <= A[i] <= 10^8
+
+    Input Format:
+    First and only argument is an integer array A.
+
+    Output Format:
+    Return 1 if any such integer p is present else, return -1.
+
+    Example Input:
+    Input 1:
+    A = [3, 2, 1, 3]
+    Input 2:
+    A = [1, 1, 3, 3]
+
+    Example Output:
+    Output 1:
+    1
+    Output 2:
+    -1
+
+    Example Explanation:
+    Explanation 1:
+    For integer 2, there are 2 greater elements in the array..
+    Explanation 2:
+    There exist no integer satisfying the required conditions.
+*/
+
+/*============ Brute Force approach 
+const checkNobleNumber = (A, N) => {
+    for(let i=0; i<N; i++){
+        let count = 0;
+        for(let j=0; j<N; j++){
+            if(a[j] > a[i]){
+                count++;
+            }
+        }
+        if(count === A[i]){
+            return 1;
+        }
+    }
+    return -1;
+};
+
+Observation:
+TC: O(N*N)
+SC: O(1)
+*/
+
+/* Optimal Approach: */
+const checkNobleNumber = (A, N) => {
+    A.sort((a,b) => b-a);
+    let count = 0;
+    for(let i=0; i<N; i++){
+        if(A[i-1] !== A[i]){ // [3,3,2,1]
+            count = i;
+        }
+        if(A[i] === count){
+            return 1;
+        }
+    }
+    return -1;
+};
+
+/*
+Observations:
+TC: O(N*logN)
+SC: O(1)
+*/
