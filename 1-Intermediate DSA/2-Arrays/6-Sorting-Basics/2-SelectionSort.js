@@ -22,6 +22,6 @@ const selectionSort = (A,N) => {
 /*
     Time Complexity: O(N^2) since we have to iterate entire list to search for a minimum element everytime.
     For 1 element, N iterations,
-    For N elements, N2 iterations.
+    For N elements, N^2 iterations.
     Space Complexity: O(1)
 */
