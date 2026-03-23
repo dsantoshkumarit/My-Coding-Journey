@@ -3,8 +3,8 @@
 ` Eg: "aDgbHJe" -> "AdGBhjE"
 ```
 Observations:
-   'a' - 32 -> 'A'
-   'A' + 32 -> 'a'
+   Charcode of 'a' - 32 -> Charcode of 'A'
+   Charcode of 'A' + 32 -> Charcode of 'a'
 ```
 
 ```js
@@ -20,6 +20,17 @@ const toggleChar = (str) => {
         }
     }
     return toggleStr;
+};
+```
+- TC : O(N)
+- SC : O(N)
+
+## Toggle Character of a string without creating a new variable:
+```js
+const toggleChar = (str) => {
+    str = [...str].map(ch => (ch === ch.toLowerCase()) ? ch.toUpperCase() : ch.toLowerCase()
+    ).join("");
+    return str;
 };
 ```
 - TC : O(N)
