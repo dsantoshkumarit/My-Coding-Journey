@@ -51,13 +51,13 @@ const isPalindrome = (str, start, end) => {
 - For odd length substring, take every character as a center and expand its center and gets maximum size palindromic substring.
 - For even length substring, take the current and adjacent character as a center and expand its center and get maximum size palindromic substring.
 - Complexities:
-    - TC:O(N^2) - As we are expanding(O(N)) for each character(O(N)).
+    - TC:O(N^2+N^2)=O(N^2) - As we are expanding(O(N)) for each character(O(N)) for both odd length and even length palindrome strings.
     - SC:O(1)
 - Code:
 ```js
     const expandAndCheck = (str, c1, c2) => {
         const N = str.length;
-        while(c1 >= 0 && c2 <= N && str[c1] === str[c2]){
+        while(c1 >= 0 && c2 < N && str[c1] === str[c2]){
             c1--;
             c2++;
         }
