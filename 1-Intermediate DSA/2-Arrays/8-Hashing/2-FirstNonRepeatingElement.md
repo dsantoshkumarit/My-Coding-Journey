@@ -1,4 +1,4 @@
-# Question: First non repeating element
+# Question Problem 2: First non repeating element
 - Given N elements, find the first non-repeating element.
 - Examples:
     - Input 1:
