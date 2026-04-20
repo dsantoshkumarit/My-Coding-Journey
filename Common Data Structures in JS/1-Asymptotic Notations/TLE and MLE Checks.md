@@ -9,5 +9,10 @@
     - As 10^3 = 2^10 => 10^7 = 10^3 * 10^3 * 10 = 10 * 2^10 * 2^10 = 10 * 2^20
 
 # MLE Checks:
-- Make sure SUM or Product doesn't exceed int limit(4-Bytes) as int can hold value ranges -2*(10^9) to 2*(10^9) -> -(2^31) to (2^31). 
-- Use long (8-Bytes) as it can hold value ranges -8*(10^18) to 8*(10^18)-1 -> (-2^63 to 2^63-1)
+- Make sure SUM or Product doesn't exceed int limit(4-Bytes = (2^8)^4 = 2^32) as int can hold value ranges : 
+    - -(2^31) to (2^31) 
+        - = -(2*2^30) to (2*2^30) 
+        - = -(2*(2^10)^3)  to (2*(2^10)^3)
+        - = -(2*(10^3)^3) to (2*(10^3)^3)
+        - = -(2*10^9) to (2*10^9)
+- Use long (8-Bytes) as it can hold value ranges (-2^63 to 2^63-1) = -8*(10^18) to 8*(10^18)-1
