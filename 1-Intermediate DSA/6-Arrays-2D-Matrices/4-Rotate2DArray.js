@@ -1,4 +1,4 @@
-import { reverseSubArray } from "../1-Introduction-to-Arrays/Code-Snippets/1-ReversingArray";
+import { reverseSubArray } from "../2-Introduction-to-Arrays/Code-Snippets/1-ReversingArray";
 import { TransPose2DArray } from "./3-TransposeOf2DArray";
 
 

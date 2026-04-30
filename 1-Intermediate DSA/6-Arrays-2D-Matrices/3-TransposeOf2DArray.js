@@ -1,4 +1,4 @@
-import { swapArrayItems } from "../1-Introduction-to-Arrays/Code-Snippets/0-SwappingArrayItems";
+import { swapArrayItems } from "../2-Introduction-to-Arrays/Code-Snippets/0-SwappingArrayItems";
 /*
     let A = [
         [1,2,3],

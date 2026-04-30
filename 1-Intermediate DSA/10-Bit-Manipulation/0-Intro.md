@@ -50,6 +50,7 @@ We can solve it using long division method, for which we need to repeatedly divi
 
 **Example:**
 Convert decimal number 20 to binary number.
+
 <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/034/146/original/bitmanipulationimage1.png?1683885852"  width="40%" height="20%">
 
 ---
