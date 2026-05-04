@@ -56,3 +56,19 @@ If we replace 0 at 2nd index or 0 at 5th index with 1, in both cases we get 5 co
         return ans;
     };
 ```
+
+# Problem 2 Majority Element
+Given an array of N integers, find the majority element.
+The majority element is the element that occurs more than n/2 times where n is size of the array.
+
+## Example 1:
+A[ ] = { 2, 1, 4 }
+Ans = No Majority element
+## Explanation:
+Here, none of the elements have frequency more than n/2 where n is 3.
+
+## Example 2
+A[ ] = { 3, 4, 3, 2, 4, 4, 4, 4}
+Ans = 4
+## Explanation;
+Here, frequency of 4 is more than n/2 that is 5 where n is 8. So 4 will be the majority element.
