@@ -4,8 +4,7 @@
 ## Decimal Number System
 * The decimal system, also known as the base-10 system, is the number system we use in our everyday lives. 
 * It is called base-10 because a single digit can take 10 values from 0 to 9. 
-
-The position of each digit in a decimal number represents a different power of 10. 
+* The position of each digit in a decimal number represents a different power of 10. 
 
 For example,
 ```js

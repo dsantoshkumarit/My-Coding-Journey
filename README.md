@@ -19,6 +19,6 @@ While this repository is primarily for my personal use, I welcome any suggestion
 
 ## Let's Connect!
 
-I'm always open to connecting with fellow learners and tech enthusiasts. You can find me on [LinkedIn](https://www.linkedin.com/in/santosh-divate-7730641a2/).
+I'm always open to connecting with fellow learners and tech enthusiasts. You can find me on [LinkedIn](https://www.linkedin.com/in/santosh-divate/).
 
 Happy Coding!
